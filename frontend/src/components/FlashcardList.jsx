@@ -1,5 +1,5 @@
 import React,{ useState, useEffect } from 'react';
-import { fetchFlashcards } from '../services/flashcardService.js';
+// import { fetchFlashcards } from '../services/flashcardService.js';
 import FlashcardItem from './FlashcardItem';
 
 const FlashcardList = ({ flashcards, onUpdateLevel, onDelete, loading }) => {
