@@ -1,7 +1,6 @@
 import axios from 'axios';
 
-// You can use an environment variable for the API base URL
-const API_URL = 'http://localhost:8000/api/flashcards';  // Fall back to localhost if not provided
+const API_URL = 'http://localhost:8000/api/flashcards'; 
 
 export const fetchFlashcards = async () => {
     try {
